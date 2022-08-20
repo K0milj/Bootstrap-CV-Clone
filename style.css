@@ -1,0 +1,69 @@
+body{
+    margin: 40px;
+    background-color: #313b47;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.info p{
+    display: inline;
+}
+
+section h3:nth-of-type(2){
+    font-weight: normal;
+}
+
+.col section{
+    margin: 20px 0;
+}
+
+.dates{
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    color: #449399;
+}
+
+.tasks p{
+    color: #449399;
+    font-style: italic;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills p{
+    color: white;
+    background-color: #989da6;
+    margin-right: 10px !important;
+    margin-bottom: 10px !important;
+    padding: 10px !important;
+    border-radius: 10px;
+}
+
+.certificates p{
+    font-size: 1.15rem;
+}
+
+.lang p{
+    margin-right: 20px !important;
+    margin-top: 20px !important;
+}
+
+.interests{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interests p{
+    background-color: white;
+    margin-right: 10px !important;
+    margin-bottom: 10px !important;
+    padding: 10px !important;
+    border: 2px solid #989da6;
+    border-radius: 10px;
+}
